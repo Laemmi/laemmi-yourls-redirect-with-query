@@ -1,5 +1,5 @@
 {
-  "name": "laemmi/laemmiv-yourls-redirect-with-query",
+  "name": "laemmi/laemmi-yourls-redirect-with-query",
   "type": "yourls-plugin",
   "description": "Pass querystring form shorturl to longurl",
   "keywords": ["yourls","plugin"],
