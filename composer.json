@@ -1,0 +1,23 @@
+{
+  "name": "laemmi/laemmiv-yourls-redirect-with-query",
+  "type": "yourls-plugin",
+  "description": "Pass querystring form shorturl to longurl",
+  "keywords": ["yourls","plugin"],
+  "homepage": "https://github.com/laemmi/laemmi-yourls-redirect-with-query",
+  "license": "MIT",
+  "authors": [{
+    "name": "Michael Lämmlein",
+    "email": "laemmi@spacerabbit.de",
+    "homepage": "https://www.spacerabbit.de",
+    "role": "Developer"
+  }],
+
+  "require": {
+    "laemmi/laemmi-yourls-default-tools": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Laemmi\\": "src"
+    }
+  }
+}
